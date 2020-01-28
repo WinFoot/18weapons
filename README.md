@@ -39,7 +39,9 @@
 | [Fuzzdb](https://github.com/fuzzdb-project/fuzzdb)            | fuzz库           | 
 | [Libinjection](https://github.com/client9/libinjection)       | inject库         | 
 | [Pangolin](http://www.nosec.org/web/pangolin)                 | SQL注入图形工具  | 
-| [Sqlmap](https://github.com/sqlmapproject/sqlmap)             | SQL注入命令行工具 | 
+| [Sqlmap](https://github.com/sqlmapproject/sqlmap)             | SQL注入命令行工具 |
+| [WAFNinja](https://github.com/khalilbijjou/WAFNinja)          | WAF绕过          |
+| [pywhatweb](https://github.com/ourren/whatweb)                | 指纹探测         |
 | [Wfuzz](https://github.com/xmendez/wfuzz)                     | Web探测          | 
 | [WhatWeb](https://github.com/urbanadventurer/WhatWeb)         | 指纹探测         | 
 | [Wpscan](https://github.com/wpscanteam/wpscan)                | WordPress探测    | 
@@ -47,7 +49,6 @@
 | [Struts-Scan](https://github.com/Lucifer1993/struts-scan)     | Struts漏洞检测   | 
 | [Pentestpackage](https://github.com/leonteale/pentestpackage) | 渗透测试工具脚本库 | 
 | [MicrosoftBaseline](https://www.microsoft.com/en-us/download/details.aspx?id=19892) | Win系统基线    | 
-
 
 ### = Net Sec =
 
