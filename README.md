@@ -12,7 +12,6 @@
 |  ----  | ----  |
 | [Ossec-HIDS](https://www.ossec.net/)          | 主机安全         |
 | [Osquery](https://www.osquery.io/)            | 主机监控         |
-| [ClamAV](https://www.clamav.net/)             | 杀毒软件         |
 | [Lynis](https://cisofy.com/)                  | 系统安全检查工具 |
 | [Chkrootkit](http://www.chkrootkit.org/)      | 主机检查         |
 | [Rkhunter](http://rkhunter.sourceforge.net/)  | 主机检查         |
@@ -24,11 +23,16 @@
 | [ProcessExplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) | Win进程浏览器    |
 | [PSTools_Win](https://docs.microsoft.com/zh-cn/sysinternals/downloads/pstools)              | UNIX进程命令行   |
 | [Sysinternals](https://docs.microsoft.com/zh-cn/sysinternals/)                              | Win系统诊断工具  |
+| [MicrosoftBaseline](https://www.microsoft.com/en-us/download/details.aspx?id=19892) | Win系统基线    | 
 
-### = App Sec =
+### = Web Sec =
 
 |  名称  | 描述  | 
 |  ----  | ----  | 
+| [SHODAN](http://www.shodanhq.com/) | 互联网知识库 |
+| [Fofa](https://fofa.so/) | 网络空间搜索引擎 |
+| [CloudFlare](http://www.cloudflare.com/) | 应用防火墙 |
+| [Exploits-DB](http://www.exploit-db.com/) | 网络漏洞库 |
 | [Fiddler](https://www.telerik.com/fiddler)    | Web抓包工具          | 
 | [Wireshark](https://www.wireshark.org/)       | 网络抓包工具         | 
 | [VeraCrypt](https://www.veracrypt.fr/)        | 开源磁盘加密         | 
@@ -41,6 +45,8 @@
 | [Pangolin](http://www.nosec.org/web/pangolin)                 | SQL注入图形工具  | 
 | [Sqlmap](https://github.com/sqlmapproject/sqlmap)             | SQL注入命令行工具 |
 | [WAFNinja](https://github.com/khalilbijjou/WAFNinja)          | WAF绕过          |
+| [Robtex](https://www.robtex.com/en/advisory/dns/cn/360/) | 网站信息探测 |
+| [Sitedossier](http://www.sitedossier.com/parentdomain/huawei.com) | 网站信息探测 |
 | [pywhatweb](https://github.com/ourren/whatweb)                | 指纹探测         |
 | [Wfuzz](https://github.com/xmendez/wfuzz)                     | Web探测          | 
 | [WhatWeb](https://github.com/urbanadventurer/WhatWeb)         | 指纹探测         | 
@@ -48,15 +54,16 @@
 | [DirBuster](https://sourceforge.net/projects/dirbuster/)      | 网站目录遍历     | 
 | [Struts-Scan](https://github.com/Lucifer1993/struts-scan)     | Struts漏洞检测   | 
 | [Pentestpackage](https://github.com/leonteale/pentestpackage) | 渗透测试工具脚本库 | 
-| [MicrosoftBaseline](https://www.microsoft.com/en-us/download/details.aspx?id=19892) | Win系统基线    | 
+| [BeEF](http://beefproject.com/) | XSS平台 |
 
 ### = Net Sec =
 
 |  名称  | 描述  | 
 |  ----  | ----  | 
-| Nmap            | 端口扫描         | 
-| Softether       | VPN软件          | 
-| Nessus          | 主机漏洞扫描     | 
+| [Nmap](https://nmap.org/)                  | 端口扫描         | 
+| [Nessus](https://www.tenable.com/)         | 主机漏洞扫描     | 
+| [Metasploit](http://www.metasploit.com/)   | 渗透测试框架     |
+| [Rapid7](http://www.rapid7.com/)           | 商业漏洞扫描     |
 
 ### = Log Sec =
 
@@ -70,13 +77,27 @@
 
 |  名称  | 描述  | 
 |  ----  | ----  | 
-| codesecure      | 开源代码扫描     | 
+| CodeSecure      | 开源代码扫描     | 
 | Fortify         | 商业代码扫描     | 
-| graudit         | 精简代码扫描     | 
+| Graudit         | 精简代码扫描     | 
 | Reflector       | .Net反编译       | 
 | Seay            | PHP源代码审计    | 
 | HxD             | 十六进制编辑器   | 
 | jd-gui-windows  | Java反编译       | 
+| [Source Code Analysis Tools](https://www.owasp.org/index.php/Source_Code_Analysis_Tools) ||
+| [Tools for code review](http://en.wikipedia.org/wiki/List_of_tools_for_code_review) ||
+| [Source Code Security Analyzers](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html) ||
+| [Checkmarx](#) ||
+| [RIPS](http://sourceforge.net/projects/rips-scanner/files/) ||
+
+## = AV =
+
+|  名称  | 官网 |
+|  ----  | ---- |
+| VirusTotal | https://www.virustotal.com/ |
+| VirSCAN | https://www.virscan.org/ |
+| Habo | http://habo.qq.com/ |
+| ClamAV | https://www.clamav.net/ |
 
 ### = Ransom =
 
@@ -123,11 +144,13 @@
 | Oraclesqlhandler | Oracle数据库 | 
 | MobaXterm | 免费SSH终端 | 
 | Xshell | 商业SSH终端 | 
+| Softether       | VPN软件          | 
 | rush_windows | Windows并发执行 | 
 | VNC-Viewer | VNC客户端 | 
 | xampp-portable | Win服务端搭建 | 
 | VirtualBox      | 开源虚拟机 |
 | VMware-Workstation | 商业虚拟机 |
+| [17CE](http://www.17ce.com/) | 一起测-网速 |
 
 ### =IDE=
 
